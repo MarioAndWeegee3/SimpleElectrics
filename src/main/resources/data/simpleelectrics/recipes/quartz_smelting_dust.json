@@ -1,0 +1,6 @@
+{
+    "type":"minecraft:smelting",
+    "ingredient":{"tag":"forge:dusts/quartz"},
+    "result":"minecraft:quartz",
+    "experience":3
+}

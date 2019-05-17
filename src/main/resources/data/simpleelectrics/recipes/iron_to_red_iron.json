@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {"tag":"forge:dusts/iron"},
+        {"item":"minecraft:redstone"},
+        {"item":"minecraft:redstone"},
+        {"item":"minecraft:redstone"},
+        {"item":"minecraft:redstone"}
+    ],
+    "result":{
+        "item":"simpleelectrics:red_iron_dust",
+        "count":2
+    }
+}

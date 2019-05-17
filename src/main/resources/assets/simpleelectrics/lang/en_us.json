@@ -1,0 +1,27 @@
+{
+    "item.simpleelectrics.steel_ingot":"Steel Ingot",
+    "item.simpleelectrics.red_iron_ingot":"Red Iron Ingot",
+    "item.simpleelectrics.steel_nugget":"Steel Nugget",
+    "item.simpleelectrics.steel_dust":"Steel Dust",
+    "item.simpleelectrics.iron_dust":"Iron Dust",
+    "item.simpleelectrics.red_iron_dust":"Red Iron Dust",
+    "item.simpleelectrics.diamond_dust":"Diamond Dust",
+    "item.simpleelectrics.gold_dust":"Gold Dust",
+    "item.simpleelectrics.quartz_dust":"Quartz Dust",
+
+    "item.simpleelectrics.steel_axe":"Steel Axe",
+    "item.simpleelectrics.steel_pickaxe":"Steel Pickaxe",
+    "item.simpleelectrics.steel_shovel":"Steel Shovel",
+    "item.simpleelectrics.steel_hoe":"Steel Hoe",
+    "item.simpleelectrics.steel_sword":"Steel Sword",
+    "item.simpleelectrics.steel_hammer":"Steel Hammer",
+    "item.simpleelectrics.iron_hammer":"Iron Hammer",
+    "item.simpleelectrics.iron_knife":"Iron Knife",
+
+    "block.simpleelectrics.steel_block":"Steel Block",
+    "block.simpleelectrics.grinder":"Grinder",
+
+    "itemGroup.electrics":"Simple Electrics",
+    "itemGroup.sematerials":"SE Materials",
+    "itemGroup.setools":"SE Tools"
+}

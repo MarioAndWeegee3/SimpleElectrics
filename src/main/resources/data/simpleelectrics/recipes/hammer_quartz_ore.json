@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {"tag":"simpleelectrics:tools/hammer"},
+        {"item":"minecraft:nether_quartz_ore"}
+    ],
+    "result":{
+        "item":"simpleelectrics:quartz_dust",
+        "count":4
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {"tag":"simpleelectrics:tools/hammer"},
+        {"item":"minecraft:iron_ingot"}
+    ],
+    "result":{
+        "item":"simpleelectrics:iron_dust",
+        "count":1
+    }
+}

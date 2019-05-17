@@ -1,0 +1,6 @@
+{
+    "type":"minecraft:smelting",
+    "ingredient":{"tag":"forge:dusts/steel"},
+    "result":"simpleelectrics:steel_ingot",
+    "experience":3
+}

@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {"tag":"simpleelectrics:tools/hammer"},
+        {"item":"minecraft:diamond_ore"}
+    ],
+    "result":{
+        "item":"simpleelectrics:diamond_dust",
+        "count":2
+    }
+}

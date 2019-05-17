@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {"tag":"simpleelectrics:tools/hammer"},
+        {"item":"minecraft:redstone_ore"}
+    ],
+    "result":{
+        "item":"minecraft:redstone",
+        "count":5
+    }
+}

@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[25,)"
+[[mods]]
+modId="simpleelectrics"
+version="1.0.0"
+displayName="Simple Electrics"
+description='''
+A simple technology mod for 1.13
+'''
+[[dependencies.simpleelectrics]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[25,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.simpleelectrics]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,6 @@
+{
+    "type":"minecraft:smelting",
+    "ingredient":{"item":"simpleelectrics:red_iron_dust"},
+    "result":"simpleelectrics:red_iron_ingot",
+    "experience":3
+}

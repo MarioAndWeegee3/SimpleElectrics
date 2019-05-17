@@ -1,0 +1,9 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {"tag":"forge:dusts/iron"},
+        {"tag":"simpleelectrics:fuels/coal"},
+        {"tag":"simpleelectrics:tools/hammer"}
+    ],
+    "result":{"item":"simpleelectrics:steel_dust"}
+}
