@@ -1,0 +1,9 @@
+[{
+  "modid": "simpleelectrics",
+  "name": "Simple Electrics",
+  "description": "This is a simple tech mod",
+  "version": "0.0.1",
+  "mcversion": "1.13.2",
+  "logoFile": "logo.png",
+  "authorList": ["MarioAndWeegee3"]
+}]

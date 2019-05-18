@@ -1,19 +1,34 @@
-modLoader="javafml"
-loaderVersion="[25,)"
-[[mods]]
-modId="simpleelectrics"
-version="1.0.0"
-displayName="Simple Electrics"
+modLoader="javafml" #mandatory
+loaderVersion="[25,)" #mandatory
+[[mods]] #mandatory
+# The modid of the mod
+modId="simpleelectrics" #mandatory
+# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+version="${file.jarVersion}" #mandatory
+ # A display name for the mod
+displayName="Simple Electrics" #mandatory
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="logo.png" #optional
+# A text field displayed in the mod UI
+authors="MarioAndWeegee3" #optional
+# The description text for the mod (multi line!) (#mandatory)
 description='''
-A simple technology mod for 1.13
+Simple Electrics mod for Minecraft 1.13.2.
 '''
-[[dependencies.simpleelectrics]] 
-    modId="forge" 
-    mandatory=true 
-    versionRange="[25,)" 
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.examplemod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[25,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
-[[dependencies.simpleelectrics]]
+# Here's another dependency
+[[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.13.2]"

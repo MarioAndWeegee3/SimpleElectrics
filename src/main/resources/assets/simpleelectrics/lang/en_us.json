@@ -15,13 +15,14 @@
     "item.simpleelectrics.steel_hoe":"Steel Hoe",
     "item.simpleelectrics.steel_sword":"Steel Sword",
     "item.simpleelectrics.steel_hammer":"Steel Hammer",
+    "item.simpleelectrics.steel_knife":"Steel Knife",
+    
     "item.simpleelectrics.iron_hammer":"Iron Hammer",
     "item.simpleelectrics.iron_knife":"Iron Knife",
 
     "block.simpleelectrics.steel_block":"Steel Block",
-    "block.simpleelectrics.grinder":"Grinder",
 
-    "itemGroup.electrics":"Simple Electrics",
+    "itemGroup.semachines":"SE Machines",
     "itemGroup.sematerials":"SE Materials",
     "itemGroup.setools":"SE Tools"
 }
