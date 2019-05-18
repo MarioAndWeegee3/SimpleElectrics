@@ -1,8 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "simpleelectrics:block/grinder_top",
-        "front": "simpleelectrics:block/grinder_front_on",
-        "side": "simpleelectrics:block/grinder_side"
-    }
-}
