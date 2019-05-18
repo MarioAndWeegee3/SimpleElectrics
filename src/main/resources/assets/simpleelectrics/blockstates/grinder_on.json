@@ -1,8 +1,0 @@
-{
-	"variants": {
-		"facing=north": { "model": "simpleelectrics:block/grinder_on" },
-        "facing=south": { "model": "simpleelectrics:block/grinder_on", "y": 180 },
-        "facing=west":  { "model": "simpleelectrics:block/grinder_on", "y": 270 },
-        "facing=east":  { "model": "simpleelectrics:block/grinder_on", "y": 90 }
-	}
-}
