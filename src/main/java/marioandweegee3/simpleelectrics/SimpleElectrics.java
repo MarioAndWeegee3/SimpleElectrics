@@ -42,9 +42,9 @@ public class SimpleElectrics {
 	public static final String modid = "simpleelectrics";
 	private static final Logger LOGGER = LogManager.getLogger();
 	
-	private static SEMachines machines;
-	private static SEMaterials materials;
-	private static SETools tools;
+	public static final ItemGroup electrics = new Electrics();
+    	public static final ItemGroup materials = new SEMaterials();
+    	public static final ItemGroup tools = new SETools();
 	
 	public SimpleElectrics() {
 		//FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -64,14 +64,14 @@ public class SimpleElectrics {
 	
 	
 	@SubscribeEvent
-	public void registerBlocks(RegistryEvent.Register<Block> event) {
+	public void registerBlocks(final RegistryEvent.Register<Block> event) {
 		event.getRegistry().registerAll(
 			ResourceBlocks.steel_block = createBlock(Material.IRON, 5.0f, SoundType.METAL, "steel_block")
 		);
 	}
 	
 	@SubscribeEvent
-	public void registerItems(RegistryEvent.Register<Item> event) {
+	public void registerItems(final RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(
 			DustItems.diamond_dust = createItem(materials,"diamond_dust"),
 			DustItems.iron_dust = createItem(materials,"iron_dust"),
