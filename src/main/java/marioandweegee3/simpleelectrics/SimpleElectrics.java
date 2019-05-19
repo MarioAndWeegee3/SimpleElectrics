@@ -42,9 +42,9 @@ public class SimpleElectrics {
 	public static final String modid = "simpleelectrics";
 	private static final Logger LOGGER = LogManager.getLogger();
 	
-	public static final ItemGroup electrics = new Electrics();
-    	public static final ItemGroup materials = new SEMaterials();
-    	public static final ItemGroup tools = new SETools();
+	private static final ItemGroup machines = new SEMachines();
+	private static final ItemGroup materials = new SEMaterials();
+	private static final ItemGroup tools = new SETools();
 	
 	public SimpleElectrics() {
 		//FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
